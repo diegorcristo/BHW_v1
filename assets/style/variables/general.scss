@@ -1,0 +1,40 @@
+:root {
+  //transition
+  --tsd: 0.25s;
+  --ttf: cubic-bezier(0, 0, 1, 1);
+
+  //radius
+  --bdr-tiny: 6px;
+  --bdr-small: 8px;
+  --bdr-medium: 12px;
+  --bdr-big: 16px;
+
+  //shadow
+  --bsw-small: 0px 10px 20px rgba(43, 37, 63, 0.1);
+  --bsw-medium: 0px 0px 30px rgba(51, 48, 62, 0.2);
+
+  --bdr: 12px;
+  --row-gap: 1rem;
+}
+
+//transition
+$tsd: var(--tsd);
+$ttf: var(--ttf);
+
+//radius
+$bdr-tiny: var(--bdr-tiny);
+$bdr-small: var(--bdr-small);
+$bdr-medium: var(--bdr-medium);
+$bdr-big: var(--bdr-big);
+
+//shadow
+$bsw-small: var(--bsw-small);
+$bsw-medium: var(--bsw-medium);
+
+//border
+$bor: 3px;
+
+$bdr: var(--bdr);
+
+$breakpoint: 60rem;
+$row-gap: var(--row-gap);

@@ -1,0 +1,33 @@
+<template>
+  <div class="login-dashboard">
+    <Nuxt />
+    <Footer />
+  </div>
+</template>
+
+<script>
+export default {
+  head: {
+    script: [
+      {
+        src: '/script/main.js',
+        type: 'text/javascript',
+        body: true,
+        defer: true,
+      },
+    ],
+  },
+}
+</script>
+
+<style lang="scss">
+/* .myaccount {
+  background-color: $bgc-03;
+  main {
+    padding: 5.5rem 0 3.75rem 0;
+  }
+} */
+.login-dashboard {
+  padding: 0 !important;
+}
+</style>

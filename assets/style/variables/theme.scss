@@ -1,0 +1,172 @@
+:root {
+  // ---- Colors ---- //
+
+  --w: hsla(0, 0%, 100%, 1);
+  --b: hsla(0, 0%, 0%, 1);
+
+  // background
+  --bgc-01: #fbfaf9;
+  --bgc-02: #ffffff;
+  --bgc-03: #faf9f8;
+
+  --bdc: #f1f6f9;
+  --bdc-selected: #ddeaf3;
+
+  // palette
+  --pri-d: #5f0329;
+  --pri-n: #7f0e3d;
+  --pri-l: #c4165e;
+
+  --sec-d: #063a25;
+  --sec-n: #2d842d;
+  --sec-d: #16c47b;
+
+  // auxiliary
+  --gray-01: #34323e;
+  --gray-02: #4d4a59;
+  --gray-03: #5f5b6b;
+  --gray-04: #7b7887;
+  --gray-05: #8d8b98;
+  --gray-06: #bfd4e4;
+  --gray-07: #ddeaf3;
+  --gray-08: #f2f7f9;
+
+  --aux-red-d: #d24e8e;
+  --aux-red-n: #e874a0;
+  --aux-red-l: #f7a4bc;
+
+  --aux-orange-d: #d98411;
+  --aux-orange-n: #ff9f1c;
+  --aux-orange-l: #ffb754;
+
+  --aux-green-d: #2ebbb6;
+  --aux-green-n: #58ddcd;
+  --aux-green-l: #92f3df;
+
+  --aux-blue-d: #5a68df;
+  --aux-blue-n: #7683f6;
+  --aux-blue-l: #9ca5fb;
+  --aux-blue-f: #1877f2;
+
+  // types
+  --typ-sparkling-01: #d9cca1;
+
+  --typ-white-01: #ebd994;
+  --typ-white-02: #ffe885;
+  --typ-white-03: #fcd182;
+
+  --typ-dessert-01: #c68855;
+
+  --typ-rose-01: #f59e9e;
+  --typ-rose-02: #e67373;
+
+  --typ-red-01: #d13d48;
+  --typ-red-02: #a12640;
+  --typ-red-03: #70172e;
+
+  //gradient
+  --grad-01: linear-gradient(71.44deg, #701f74 -3.23%, #be3857 89.98%);
+  --grad-02: linear-gradient(231.11deg, #21e292 0%, #0e7f50 98.03%);
+  --grad-03: linear-gradient(223.89deg, #ffa26d 0.34%, #fc6f91 104.44%);
+  --grad-04: linear-gradient(
+    215.23deg,
+    #50f1b8 8.76%,
+    #9ca5fb 97.35%,
+    #717dee 97.35%
+  );
+}
+
+// // ---- Colors ---- //
+
+$w: var(--w);
+$b: var(--b);
+
+// background
+$bgc-01: var(--bgc-01);
+$bgc-02: var(--bgc-02);
+$bgc-03: var(--bgc-03);
+
+$bdc: var(--bdc);
+$bdc-selected: var(--bdc-selected);
+
+// palette
+$pri-d: var(--pri-d);
+$pri-n: var(--pri-n);
+$pri-l: var(--pri-l);
+
+$sec-d: var(--sec-d);
+$sec-n: var(--sec-n);
+$sec-d: var(--sec-d);
+
+// auxiliary
+$gray-01: var(--gray-01);
+$gray-02: var(--gray-02);
+$gray-03: var(--gray-03);
+$gray-04: var(--gray-04);
+$gray-05: var(--gray-05);
+$gray-06: var(--gray-06);
+$gray-07: var(--gray-07);
+$gray-08: var(--gray-08);
+
+$aux-red-d: var(--aux-red-d);
+$aux-red-n: var(--aux-red-n);
+$aux-red-l: var(--aux-red-l);
+
+$aux-orange-d: var(--aux-orange-d);
+$aux-orange-n: var(--aux-orange-n);
+$aux-orange-l: var(--aux-orange-l);
+
+$aux-green-d: var(--aux-green-d);
+$aux-green-n: var(--aux-green-n);
+$aux-green-l: var(--aux-green-l);
+
+$aux-blue-d: var(--aux-blue-d);
+$aux-blue-n: var(--aux-blue-n);
+$aux-blue-l: var(--aux-blue-l);
+$aux-blue-f: var(--aux-blue-f);
+
+// types
+$typ-sparkling-01: var(--typ-sparkling-01);
+
+$typ-white-01: var(--typ-white-01);
+$typ-white-02: var(--typ-white-02);
+$typ-white-03: var(--typ-white-03);
+
+$typ-dessert-01: var(--typ-dessert-01);
+
+$typ-rose-01: var(--typ-rose-01);
+$typ-rose-02: var(--typ-rose-02);
+
+$typ-red-01: var(--typ-red-01);
+$typ-red-02: var(--typ-red-02);
+$typ-red-03: var(--typ-red-03);
+$typ-red-04: var(--typ-red-04);
+
+//gradient
+$grad-01: var(--grad-01);
+$grad-02: var(--grad-02);
+$grad-03: var(--grad-03);
+$grad-04: var(--grad-04);
+
+// $colors: (
+//   primary: (
+//     base: red,
+//   ),
+// ) !default;
+
+// @function color($color, $complementary: null) {
+//   @if map-has-key($colors, $color) {
+//     $type: map-get($colors, $color);
+//     @if $complementary == null {
+//       @if type-of($type) == map {
+//         @return map-get(map-get($colors, $color), 'base');
+//       } @else {
+//         @return map-get($colors, $color);
+//       }
+//     } @else {
+//       @return map-get(map-get($colors, $color), $complementary);
+//     }
+//   }
+// }
+
+// // use color: color('primary');
